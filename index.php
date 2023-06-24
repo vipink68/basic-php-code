@@ -11,6 +11,9 @@ include  'include/hedder.php'; ?>
         echo"<br>";
         echo "Hello $name welcome back in the game.<br>"
     ?>
+    <button type="button" class="btn btn-primary">Click me</button>
+    <button type="button" class="btn btn-success">Click me</button>
+    <button type="button" class="btn btn-dark">Click me</button>
     <?php include'include/footer.php';?>
     </div>
 </body>
