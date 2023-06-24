@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date and Time Manipulation</title>
-</head>
-<body>
+<?php 
+$title = 'Date Manipulation';
+include  'include/hedder.php'; ?>
     <h1>PHP Date & Time Manipulation</h1>
     <?php 
         $datenow = getdate();
@@ -22,7 +17,9 @@
         print date("d/m/y G.i:s<br>",time())."<br>";
         print 'today is: ';
         print date("j of F Y, \a\\t g.i a",time());
-
+        echo "<br>";
     ?>
+    <?php include'include/footer.php';?>
+    </div>
 </body>
 </html>

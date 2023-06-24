@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strings in php</title>
-</head>
-<body>
+<?php 
+$title = 'String Manupulation';
+ include  'include/hedder.php'; ?>
     <h1>String in php</h1>
     <?php 
         $phrase1="This is my program";
@@ -42,5 +37,6 @@
 
         echo 'Replace string with another: '.str_replace("system","Laptop",$phrase2).'<br>';
     ?>  
+    <?php include'include/footer.php';?></html>
+    </div>
 </body>
-</html>

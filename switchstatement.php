@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Switch statement</title>
-</head>
-<body>
+<?php
+$title = 'Switch statement';
+ include  'include/hedder.php'; ?>
     <h1>Switch statement</h1>
     <?php 
         $grade = "k";
@@ -24,5 +19,6 @@
             break;
         }
     ?>
+    <?php include'include/footer.php';?></html>
+    </div>
 </body>
-</html>

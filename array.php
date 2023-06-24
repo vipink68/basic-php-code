@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array</title>
-</head>
-<body>
-    <h1>Array in php</h1>
+<?php 
+$title = "Array and Printout";
+include  'include/hedder.php'; ?>
+    <h1><?php echo $title;?></h1>
     <?php
         // a variable 
         $num = 3;
@@ -24,5 +19,7 @@
 
 
     ?>
+    <?php include'include/footer.php';?>
+    </div>
 </body>
 </html>

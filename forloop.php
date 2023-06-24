@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For loop</title>
-</head>
-<body>
+<?php $title = 'For loop';
+include  'include/hedder.php'; ?>
     <h1>For loops</h1>
     <?php 
         //for loop
@@ -18,5 +12,6 @@
                 echo'<br>';
             }
     ?>
+    <?php include'include/footer.php';?></html>
+    </div>
 </body>
-</html>
